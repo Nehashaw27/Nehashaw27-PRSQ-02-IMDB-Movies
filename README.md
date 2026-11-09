@@ -1,4 +1,5 @@
 Project Approach
+
 The main objective of this project was to analyze IMDb movie data using SQL and identify insights about movie popularity, revenue, ratings, and director performance.
 
 The project was completed through the following steps:
@@ -26,6 +27,7 @@ Overview	Movie description
 Director ID	Director reference ID
 
 Table 2: Directors
+
 Column	Description
 ID	Unique director ID
 Name	Director name
@@ -33,6 +35,7 @@ Gender	Director gender
 Department	Director department
 
 3. Models / Techniques Used
+   
 This project did not use Machine Learning models. It used SQL queries and database analysis techniques.
 Technique	Purpose
 SELECT	Retrieve movie and director data
@@ -45,8 +48,10 @@ ORDER BY	Rank movies and directors
 LIMIT	Identify top-performing records
 LIKE	Search directors by name
 
-4. Project Conclusions
+5. Project Conclusions
+   
 The SQL analysis helps identify:
+
 1. The total number of movies available in the IMDb dataset.
 2. The three most popular movies based on popularity scores.
 3. The three most bankable movies based on revenue.
